@@ -1,0 +1,45 @@
+1               2               3               4               5
+0 1 2 3 4 5 6 7 0 1 2 3 4 5 6 7 0 1 2 3 4 5 6 7 0 1 2 3 4 5 6 7 0 1
+  
+1 0 0 1 0 0 1 1 0 1 0 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 1 0 1 1 0 0  
+1 0 0 1 0 0 1 1 0 1 0 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 1 0 1 1 0 0
+___________________________________________________________________
+
+valid 100100110101100000001111110010110 0
+      100100110101100000001111110010110
+
+      100100110101100000001111110010110
+
+test  10010011 01011000 00001111 11001011 0
+
+
+#define MUMBI_1_SHORT 350
+#define MUMBI_1_LONG  800
+#define MUMBI_0_SHORT 280
+#define MUMBI_0_LONG  880
+
+
+unsigned int mumbi_1_a_on = 2472021963;
+unsigned int mumbi_1_a_off = 2472021706;
+unsigned int mumbi_1_b_on = 2472021449;
+unsigned int mumbi_1_b_off = 2472021192;
+unsigned int mumbi_1_c_on = 2472020941;
+unsigned int mumbi_1_c_off = 2472020684;
+unsigned int mumbi_1_d_on = 2472019907;
+unsigned int mumbi_1_d_off = 2472019650;
+unsigned int mumbi_1_all_on = 2472019136;
+unsigned int mumbi_1_all_off = 2472020175;
+
+unsigned int mumbi_2_a_on = 4082372503;
+unsigned int mumbi_2_a_off = 4082372246;
+unsigned int mumbi_2_b_on = 4082371989;
+unsigned int mumbi_2_b_off = 4082371732;
+unsigned int mumbi_2_c_on = 4082371475;
+unsigned int mumbi_2_c_off = 4082371218;
+unsigned int mumbi_2_d_on = 4082370459;
+unsigned int mumbi_2_d_off = 4082370202;
+unsigned int mumbi_2_all_on = 4082369688;
+unsigned int mumbi_2_all_off = 4082370704;
+
+
+11110011010101000000111110010111:: STOP 4082372503
